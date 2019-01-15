@@ -7,4 +7,4 @@ ENV APP_OPTIONS="--cpu 1"
 
 USER 1001
 ENTRYPOINT ["/usr/bin/stress", "--verbose"]
-CMD [${APP_OPTIONS}]
+CMD ["--cpu 1"]
